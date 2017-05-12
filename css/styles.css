@@ -320,6 +320,18 @@ h4{
   margin-left: 0.5em;
   min-height: 5em;
 }
+#inline a.button{
+  background-color: #E63327;
+  color: white;
+  font-size: 1.1em;
+  background-image: none;
+  border: none;
+  text-shadow: none;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 1.5em 4em;
+  box-shadow: none;
+}
 
 /*lity*/
 .lity {
@@ -328,6 +340,11 @@ h4{
 .lity-content:after {
     -webkit-box-shadow: none;
     box-shadow: none;
+}
+
+/*hubspot*/
+.submitted-message{
+  display: none;
 }
 
 /*media*/
